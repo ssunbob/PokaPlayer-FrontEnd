@@ -1,6 +1,13 @@
 # PokaPlayer-FrontEnd
 
 This Branch contain some custom changes based on original master branch.
+
+## Usage
+1 install
+2 adjust
+3 build
+4 replace all files in the "public" folder in PokaPlayer Project with files in the "dist" folder 
+
 > Frontend of PokaPlayer
 ## Screenshot
 ![](https://i.imgur.com/E8FGWr3.png)
