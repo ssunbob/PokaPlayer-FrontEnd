@@ -1,15 +1,14 @@
 # PokaPlayer-FrontEnd
 
 This Branch contain some custom changes based on original master branch.
-
+* pwa self-host.
+* changed default-font.
+* use thinner pic for default setting.
 ## Usage
-1 install
-
-2 adjust
-
-3 build
-
-4 replace all files in the "public" folder in PokaPlayer Project with files in the "dist" folder 
+1. install
+2. adjust
+3. build
+4. replace all files in the "public" folder in PokaPlayer Project with files in the "dist" folder 
 
 > Frontend of PokaPlayer
 ## Screenshot
