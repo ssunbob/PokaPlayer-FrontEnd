@@ -2,8 +2,8 @@
 
 This Branch contain some custom changes based on original master branch.
 * pwa self-host.
-* changed default-font.
-* use thinner pic for default setting.
+* change default-font to no-webfont.
+* use thinner pic for default headerBgSource setting.
 ## Usage
 1. install
 2. adjust
