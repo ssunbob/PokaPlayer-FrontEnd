@@ -1,7 +1,14 @@
 const vueConfig = {
   "transpileDependencies": [
     "vuetify"
-  ]
+  ],
+  "pwa": {
+		"workboxOptions": {
+      "importWorkboxFrom": 'local',
+      "skipWaiting": true,
+      "clientsClaim": true,
+		}
+	}
 }
 
 if (process.env.NODE_ENV === 'production') {
