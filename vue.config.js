@@ -3,12 +3,12 @@ const vueConfig = {
     "vuetify"
   ],
   "pwa": {
-		"workboxOptions": {
+    "workboxOptions": {
       "importWorkboxFrom": 'local',
       "skipWaiting": true,
       "clientsClaim": true,
-		}
-	}
+    }
+  }
 }
 
 if (process.env.NODE_ENV === 'production') {
