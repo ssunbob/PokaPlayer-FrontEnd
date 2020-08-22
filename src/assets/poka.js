@@ -97,7 +97,7 @@ window._setting = (setting, value) => {
         "artistView": "card",
         "composerView": "card",
         "audioQuality": "High",
-        "headerBgSource": "https://i.imgur.com/IdbJiao.jpg",
+        "headerBgSource": "https://ftp.bmp.ovh/imgs/2020/08/1a7c9a5935c00b06.jpg",
         "darkMode": false,
         "server": location.origin,
         "password": "",
