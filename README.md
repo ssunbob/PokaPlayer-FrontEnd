@@ -1,5 +1,6 @@
 # PokaPlayer-FrontEnd
 
+This Branch contain some custom changes based on original master branch.
 > Frontend of PokaPlayer
 ## Screenshot
 ![](https://i.imgur.com/E8FGWr3.png)
