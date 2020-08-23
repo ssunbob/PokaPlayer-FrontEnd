@@ -59,7 +59,7 @@ export default {
 					.then(e => { sessionStorage[storageId] = JSON.stringify(e); return e })
 					.catch(e => console.error(e))
 			}
-			if(githubRes != []){
+			if(githubRes !== '[]'){
 				if (this.compareVersion(currentVersion, githubRes[0].tag_name) || this.debug) {
 					this.checkUpadteStatus = i18n.t("settings_update_canUpdate2", { version: githubRes[0].tag_name });
 					if (this.debug)
