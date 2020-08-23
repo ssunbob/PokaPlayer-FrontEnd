@@ -142,7 +142,7 @@ export default {
 			if (this.poka_debug || this.newVersion.tag) this.showUpdateDialog = true;
 		},
 		fetchNewVersion() {
-			fetch("https://api.github.com/repos/gnehs/PokaPlayer/releases")
+			fetch("https://api.github.com/repos/ssunbob/PokaPlayer/releases")
 				.then(e => e.json())
 				.then(e => {
 					this.newVersion.body = new showdown.Converter().makeHtml(e[0].body);

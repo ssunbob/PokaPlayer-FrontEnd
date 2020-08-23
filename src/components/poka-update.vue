@@ -54,7 +54,7 @@ export default {
 
 			let githubRes = JSON.parse(sessionStorage[storageId] || null)
 			if (!githubRes) {
-				githubRes = await fetch("https://api.github.com/repos/gnehs/PokaPlayer/releases")
+				githubRes = await fetch("https://api.github.com/repos/ssunbob/PokaPlayer/releases")
 					.then(e => e.json())
 					.then(e => { sessionStorage[storageId] = JSON.stringify(e); return e })
 					.catch(e => console.error(e))
