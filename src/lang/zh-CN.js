@@ -12,22 +12,22 @@ export default {
 		failed: '无法复制至剪贴板'
 	},
 	"home": "首页",
-	"nowplaying": "现正播放",
+	"nowplaying": "现在播放",
 	"lrc": "歌词",
-	"search": "搜寻",
+	"search": "搜索",
 	"album": "专辑",
 	"folder": "资料夹",
 	"artist": "演出者",
 	"song": "歌曲",
 	"composer": "作曲者",
 	"playlist": "播放清单",
-	"settings": "设定",
+	"settings": "设置",
 	"ok": "好",
 	"cancel": "取消",
 	"reset": "重置",
 	"done": "完成",
 	"back": "返回",
-	"login": "登入",
+	"login": "登录",
 	"login_page": {
 		"server": "服务器",
 		"username": "使用者名称",
@@ -52,15 +52,15 @@ export default {
 		},
 		"tips": {
 			"firstLogin": {
-				"title": '首次登入？',
-				"description": '默认使用者名称与密码皆为「poka」，登入后可至设定更改。'
+				"title": '首次登录？',
+				"description": '默认使用者名称与密码皆为「poka」，登录后可到设置更改。'
 			}
 		},
 		"session": {
 			"_": "重置 session",
-			"description": "若您持续无法登入，可能是 session 发生错误。",
-			"description2": "您可以于下方输入管理员账号进行重置，但请注意，此动作将重置所有使用者的登入状态。",
-			"success": "重置成功，请尝试登入",
+			"description": "若您持续无法登录，可能是 session 发生错误。",
+			"description2": "您可以于下方输入管理员账号进行重置，但请注意，此动作将重置所有使用者的登录状态。",
+			"success": "重置成功，请尝试登录",
 			"fail": "重置失败，错误原因："
 		}
 	},
@@ -72,8 +72,8 @@ export default {
 	"home_hqPlaylist_netease": "精品清单",
 	"home_topPlaylist_netease": "热门清单",
 	"home_dailyRecommend_netease": "每日推荐",
-	"app_waitForPlay": "伫列中未有歌曲",
-	"app_waitForPlay_description": "加入一些歌曲，或是点选底下的随机播放",
+	"app_waitForPlay": "队列中没有歌曲",
+	"app_waitForPlay_description": "加入一些歌曲，或是点击底下的随机播放",
 	"now_cleanSongs": "确定清除所有歌曲？",
 	"now_cleanSongs_description": "这将会清除列表中所有歌曲。",
 	"playlist_random": "随机播放",
@@ -88,11 +88,11 @@ export default {
 		"edit_empty": "字段不得为空",
 		"playlist_empty": "您尚未建立任何播放清单，点选右上角的「＋」来新增"
 	},
-	"lrc_search": "搜寻歌词",
+	"lrc_search": "搜索歌词",
 	"lrc_noKeyword": "尚未输入关键词",
-	"lrc_enter2search": "输入完后按下 Enter 开始搜寻歌词",
+	"lrc_enter2search": "输入完后按下 Enter 开始搜索歌词",
 	"lrc_notLoad": "不载入歌词",
-	"lrc_notLoad_description": "点选清除目前的歌词",
+	"lrc_notLoad_description": "点击清除目前的歌词",
 	"lrc_noLyrics": "无歌词",
 	"lrc_saved": "歌词已储存",
 	"songAction_title": "歌曲操作",
@@ -106,16 +106,16 @@ export default {
 	"songAction_unlike": "取消收藏",
 	"songAction_unlike_success": "已取消收藏「{name}」",
 	"songAction_unlike_failed": "取消收藏「{name}」时发生了错误",
-	"songAction_rating": "评等",
+	"songAction_rating": "评分",
 	"songAction_rating0": "清除评等",
-	"songAction_rating4song": "为「{name}」评等",
-	"songAction_rating_success": "为「{name}」评等 {star} 星成功！",
-	"songAction_rating_failed": "为「{name}」评等 {star} 星失败。",
-	"songAction_rating0_success": "为「{name}」清除评等成功！",
-	"songAction_rating0_failed": "为「{name}」清除评等失败。",
+	"songAction_rating4song": "为「{name}」评分",
+	"songAction_rating_success": "为「{name}」评分 {star} 星成功！",
+	"songAction_rating_failed": "为「{name}」评分 {star} 星失败。",
+	"songAction_rating0_success": "为「{name}」清除评分成功！",
+	"songAction_rating0_failed": "为「{name}」清除评分失败。",
 	"songAction_add2playlist": "加入到播放清单",
 	"songAction_add2playlist_songNotExist": "{source}",
-	"songAction_add2playlist_songExist": "{source} / 该歌曲已存在，点选来删除",
+	"songAction_add2playlist_songExist": "{source} / 该歌曲已存在，点击来删除",
 	"songAction_add2playlist_failed": "处理 {name} 时发生了错误",
 	"songAction_add2playlist_add_success": "已将 {name} 加入到 {playlist}",
 	"songAction_add2playlist_remove_success": "已将 {name} 从 {playlist} 删除",
@@ -125,8 +125,8 @@ export default {
 	"addSong_name": "已添加 {name}",
 	"moduleShowName_Netease": "网易云音乐",
 	"moduleShowName_DSM": "DSM",
-	"sessionExpired": "Session 过期，请重新登入",
-	"add2nowPlaying": "将此页歌曲加入到现正播放",
+	"sessionExpired": "Session 过期，请重新登录",
+	"add2nowPlaying": "将此页歌曲加入到现在播放",
 	"pin_failed": "钉选失败",
 	"unpin_failed": "取消钉选失败",
 	"settings_dark": "夜间模式",
@@ -146,9 +146,9 @@ export default {
 	"settings_systemAndUpdate": "系统和更新",
 	"settings_systemAndUpdate_description": "更新 PokaPlayer、重新启动",
 	"settings_about": "关于",
-	"settings_about_description": "PokaPlayer 相关信息、错误回报等",
+	"settings_about_description": "PokaPlayer 相关信息、错误反馈等",
 	"settings_about_contributions": "贡献者",
-	"settings_about_errorEeport": "错误回报",
+	"settings_about_errorEeport": "错误反馈",
 	"settings_account": "账号",
 	"settings_logout": "登出",
 	"settings_system": "系统",
@@ -173,17 +173,17 @@ export default {
 	"settings_restart_completed": "重新启动完成！",
 	"settings_restartDialog_title": "确定要重新启动吗？",
 	"settingIndex": {
-		'normalItems': '一般设定项目',
+		'normalItems': '基础设置',
 		'adminItems': '服务器管理',
 	},
 	"settingInterface": {
 		"_": "界面",
 		"customize": {
-			"_": "个人化",
+			"_": "自定义",
 			"bg": {
-				"_": "自订背景",
+				"_": "自定义背景",
 				"description": "更改背景图片",
-				"custom_link": "自订连结"
+				"custom_link": "自定义链接"
 			},
 			"bg_cover": {
 				"_": "背景覆盖",
@@ -215,7 +215,7 @@ export default {
 	},
 	"settingUser": {
 		"title": "使用者",
-		"description": "检视您的资料、修改密码",
+		"description": "查看您的资料、修改密码",
 		"name": "名称",
 		"username": "使用者名称",
 		"role": "权限",
@@ -233,7 +233,7 @@ export default {
 			"title": "更改使用者名称",
 			"placeholder": "输入新的使用者名称",
 			"result": {
-				"success": "使用者名称成功更改为 {name}，下次请用新的使用者名称来登入",
+				"success": "使用者名称成功更改为 {name}，下次请用新的使用者名称来登录",
 				"error": "使用者名称更改失败"
 			}
 		},
@@ -253,33 +253,33 @@ export default {
 		}
 	},
 	"settingUserManagement": {
-		title: "使用者管理",
+		title: "用户管理",
 		role: {
-			user: '普通使用者',
+			user: '普通用户',
 			admin: '管理员'
 		},
 		dialog: {
 			//create
-			create: '建立使用者',
+			create: '建立用户',
 			createBtn: '建立',
-			userCreated: '使用者建立成功',
-			userCreateFailed: '使用者建立失敗',
-			userCreateUsernameRepeat: '使用者名稱已被使用',
+			userCreated: '用户建立成功',
+			userCreateFailed: '用户建立失敗',
+			userCreateUsernameRepeat: '用户名称已被使用',
 			//edit
-			edit: '编辑使用者',
+			edit: '编辑用户',
 			//changePassword
 			changePassword: '更改密码',
 			changePasswordSuccess: '密码已变更',
 			changePasswordFailed: '更改密码时发生了错误',
 			enterNewPassword: '请输入新密码',
 			//deleteUser
-			deleteUser: '删除使用者',
-			deleteUserFailed: '删除使用者时发生了错误'
+			deleteUser: '删除用户',
+			deleteUserFailed: '删除用户时发生了错误'
 		},
 
 		field: {
 			name: "名称",
-			username: "使用者名称",
+			username: "用户名称",
 			role: "权限",
 			password: "密码",
 		}
