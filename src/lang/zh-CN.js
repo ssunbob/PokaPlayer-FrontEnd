@@ -30,7 +30,7 @@ export default {
 	"login": "登录",
 	"login_page": {
 		"server": "服务器",
-		"username": "使用者名称",
+		"username": "用户名称",
 		"password": "密码",
 		"features": {
 			"opensource": {
@@ -53,13 +53,13 @@ export default {
 		"tips": {
 			"firstLogin": {
 				"title": '首次登录？',
-				"description": '默认使用者名称与密码皆为「poka」，登录后可到设置更改。'
+				"description": '默认用户名称与密码皆为「poka」，登录后可到设置更改。'
 			}
 		},
 		"session": {
 			"_": "重置 session",
 			"description": "若您持续无法登录，可能是 session 发生错误。",
-			"description2": "您可以于下方输入管理员账号进行重置，但请注意，此动作将重置所有使用者的登录状态。",
+			"description2": "您可以于下方输入管理员账号进行重置，但请注意，此动作将重置所有用户的登录状态。",
 			"success": "重置成功，请尝试登录",
 			"fail": "重置失败，错误原因："
 		}
@@ -214,10 +214,10 @@ export default {
 		"lang": "语言"
 	},
 	"settingUser": {
-		"title": "使用者",
+		"title": "用户",
 		"description": "查看您的资料、修改密码",
 		"name": "名称",
-		"username": "使用者名称",
+		"username": "用户名称",
 		"role": "权限",
 		"password": "密码",
 		"passwordDescription": "轻触此处来更改密码",
@@ -230,11 +230,11 @@ export default {
 			}
 		},
 		"changeUsername": {
-			"title": "更改使用者名称",
-			"placeholder": "输入新的使用者名称",
+			"title": "更改用户名称",
+			"placeholder": "输入新的用户名称",
 			"result": {
-				"success": "使用者名称成功更改为 {name}，下次请用新的使用者名称来登录",
-				"error": "使用者名称更改失败"
+				"success": "用户名称成功更改为 {name}，下次请用新的用户名称来登录",
+				"error": "用户名称更改失败"
 			}
 		},
 		"changePassword": {
