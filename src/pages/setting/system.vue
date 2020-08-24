@@ -145,16 +145,20 @@ export default {
 			fetch("https://api.github.com/repos/ssunbob/PokaPlayer/releases")
 				.then(e => e.json())
 				.then(e => {
-					this.newVersion.body = new showdown.Converter().makeHtml(e[0].body);
-					if (this.compareVersion(this.poka_version, e[0].tag_name)) {
-						this.newVersion.prerelease = e[0].prerelease;
-						this.newVersion.tag = e[0].tag_name;
-						this.checkUpadteStatus = i18n.t("settings_update_update2", { version: this.newVersion.tag });
-						if (this.$route.query.update) {
-							this.showUpdateDialog = true
-						}
-					} else {
+					if(this.checkEmpty(e)){
 						this.checkUpadteStatus = i18n.t("settings_update_latestVersion");
+					}else{
+						this.newVersion.body = new showdown.Converter().makeHtml(e[0].body);
+						if (this.compareVersion(this.poka_version, e[0].tag_name)) {
+							this.newVersion.prerelease = e[0].prerelease;
+							this.newVersion.tag = e[0].tag_name;
+							this.checkUpadteStatus = i18n.t("settings_update_update2", { version: this.newVersion.tag });
+							if (this.$route.query.update) {
+								this.showUpdateDialog = true
+							}
+						} else {
+							this.checkUpadteStatus = i18n.t("settings_update_latestVersion");
+						}						
 					}
 				})
 				.catch(e => console.error(e));
@@ -223,6 +227,28 @@ export default {
 		},
 		reload() {
 			window.location.reload();
+		},
+		checkEmpty(value) {
+			switch (typeof value) {
+				case 'undefined':
+					return true;
+				case 'string':
+					if (value.replace(/(^[ \t\n\r]*)|([ \t\n\r]*$)/g, '').length == 0) return true;
+					break;
+				case 'boolean':
+					if (!value) return true;
+					break;
+				case 'number':
+					if (0 === value || isNaN(value)) return true;
+					break;
+				case 'object':
+					if (null === value || value.length === 0) return true;
+					for (var i in value) {
+						return false;
+					}
+					return true;
+			}
+			return false;
 		},
 		compareVersion(local, remote) {
 			local = local.split(".").map(e => parseInt(e));
